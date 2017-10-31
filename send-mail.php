@@ -1,15 +1,20 @@
 <?php
 
-$to = 'nicolas.rodriguezn@mail.udp.cl';
-$subject = 'Marriage Proposal';
-$message = 'Hi Jane, will you marry me?';
-$from = 'peterparker@email.com';
+//Recibiendo variables
+$to = "nicolas.rodriguezn@mail.udp.cl";
+$subject = 'Contacto Formulario Aguasconcepcion.cl';
+$name = $_POST['name'];
+$message = $_POST['message'];
+$from = $_POST['email'];
 
-// Sending email
-if(mail($to, $subject, $message)){
-    echo 'Your mail has been sent successfully.';
+//Creando mensaje
+$contenido = "Nombre: ". $name . "\n \n Email: " . $from . " \n \n Mensaje: " . $message;
+
+//Enviando Email
+if(mail($to, $subject, $contenido)){
+   header( 'Location: ./index.html' ) ;
 } else{
-    echo 'Unable to send email. Please try again.';
+    echo 'Ha ocurrido un error, intentelo nuevamente';
 }
 
 ?>
