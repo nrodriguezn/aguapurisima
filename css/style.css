@@ -184,7 +184,7 @@ margin : 0;
 float : left;
 margin-right : 30px;
 margin-top : 19px;
-width : 76px;
+width : 276px;
 }
 #pricing_sec {
 padding : 70px 0;
@@ -833,7 +833,7 @@ margin-left : 15px;
 padding : 100px 0;
 }
 .main_menu_sec {
-background : none 0 0 repeat scroll #353638;
+background : 0 0 repeat scroll #353638;
 border : none 0;
 margin : 0;
 }
