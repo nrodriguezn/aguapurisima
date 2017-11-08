@@ -9,25 +9,6 @@ header nav {
   font-size: 18px;
 }
 
-
-#image_slider {
-/*
-background-image : url("../img_r/banner.jpg");
-background-repeat: no-repeat;
-width: 90%;
-height: 600px;
-margin: 15px auto;
-*/
-width: 90%;
-margin: 15px auto;
-background-image : url("../img_r/banner.jpg");
-height: 600px;
-background-position : center center;
-background-repeat : no-repeat;
-background-size : 100% 100%;
-padding : 40px 0;
-}
-
 .centrarimg{
   align-items: center;
 }
@@ -62,6 +43,24 @@ header nav ul li a:hover {
 
 section {
   padding: 20px;
+}
+
+#image_slider {
+/*
+background-image : url("../img_r/banner.jpg");
+background-repeat: no-repeat;
+width: 90%;
+height: 600px;
+margin: 15px auto;
+*/
+width: 90%;
+margin: 15px auto;
+background-image : url("../img_r/banner.jpg");
+height: 600px;
+background-position : center center;
+background-repeat : no-repeat;
+background-size : 100% 100%;
+padding : 40px 0;
 }
 @media screen and (max-width: 800px) {
   header nav {
