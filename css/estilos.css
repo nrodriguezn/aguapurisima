@@ -62,6 +62,16 @@ background-repeat : no-repeat;
 background-size : 100% 100%;
 padding : 40px 0;
 }
+.title_bg_1{
+background-color: #024959;
+}
+
+#protfolio_sec{
+  background-color: white;
+  padding-bottom: 200px;
+}
+
+
 @media screen and (max-width: 800px) {
   header nav {
     width: 80%;
