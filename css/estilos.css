@@ -65,10 +65,11 @@ background-repeat : no-repeat;
 background-size : 100% 100%;
 padding : 40px 0;
 }
-.title_bg_1{
-background-color: #024959;
+.logo_aguas{
+  display:block;
+  margin:auto;
+  width: 360px;
 }
-
 
 #protfolio_sec{
   background-color: white;
@@ -155,4 +156,8 @@ margin: 15px auto;
 
 
   }
+}
+
+.pequena{
+  max-width: 10px;
 }

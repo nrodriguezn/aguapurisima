@@ -327,7 +327,7 @@ margin-left : -10px;
 #protfolio_sec .single-portfolio {
 float : left;
 margin-bottom : 10px;
-width : 277px;
+width : 380px;
 }
 #protfolio_sec .single-portfolio:hover .img_hoverlay {
 display : block;
@@ -653,10 +653,11 @@ padding : 30px;
 text-transform : uppercase;
 }
 .title_bg_1 {
-background-image : url("../img/basic.jpg");
+background-image : url("../img_r/cabezal.jpg");
 background-position : center center;
 background-repeat : no-repeat;
 background-size : 100% 100%;
+text-shadow: 2px 2px #000000;
 }
 .title_bg_2 {
 background-image : url("../img/standar.jpg");
