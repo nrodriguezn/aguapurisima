@@ -1,5 +1,6 @@
 header{
   width: 100%;  //asi abarca el 100%
+
 }
 
 header nav {
@@ -7,6 +8,7 @@ header nav {
   margin: 0px;
   background: #024959;
   font-size: 18px;
+  z-index: 10;
 }
 
 .centrarimg{
@@ -24,6 +26,7 @@ header nav ul{
 }
 header nav ul li {
   float: left;
+
 }
 
 header nav ul li a {
@@ -66,13 +69,31 @@ padding : 40px 0;
 background-color: #024959;
 }
 
+
 #protfolio_sec{
   background-color: white;
   padding-bottom: 200px;
 }
 
+.sngl_tstm{
+  display: block;
+  float: none;
+}
 
-@media screen and (max-width: 800px) {
+.img_item{
+background-image : url("../img_r/banner.jpg");
+width: 90%;
+height: 500px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+margin: 15px auto;
+
+}
+
+
+@media screen and (max-width: 700px) {
   header nav {
     width: 80%;
     height: 60%;
@@ -120,5 +141,18 @@ background-color: #024959;
     background-repeat : no-repeat;
     background-size : 90% 100%;
     padding : 40px 0;
+  }
+  .img_item{
+    width: 95%;
+    margin: 10px auto;
+    background-image : url("../img_r/back_res.png");
+    height: 550px;
+    margin-top: 40px;
+    background-position : center center;
+    background-repeat : no-repeat;
+    background-size : 90% 100%;
+    padding : 40px 0;
+
+
   }
 }
