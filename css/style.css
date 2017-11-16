@@ -325,12 +325,15 @@ margin-top : 20px;
 margin-left : -10px;
 }
 #protfolio_sec .single-portfolio {
-float : left;
+	display:block;
+	margin:auto;
 margin-bottom : 10px;
-width : 380px;
+width : 370px;
 }
 #protfolio_sec .single-portfolio:hover .img_hoverlay {
 display : block;
+display:block;
+margin:auto;
 }
 #message {
 height : 90px;
