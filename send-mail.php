@@ -1,7 +1,7 @@
 <?php
 
 //Recibiendo variables
-$to = "nicolas.rodriguezn@mail.udp.cl";
+$to = "contacto@aguasconcepcion.cl";
 $subject = 'Contacto Formulario Aguasconcepcion.cl';
 $name = $_POST['name'];
 $message = $_POST['message'];
