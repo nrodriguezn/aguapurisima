@@ -122,8 +122,8 @@
 				<div class="portfolio-filter text-uppercase text-center">
 				<ul class="filter">
 
-				<li data-filter=".todos"  >Todos</li>
-        <li data-filter=".producto-venta" id="inicio">Venta</li>
+				<li data-filter=".todos" id="inicio" >Todos</li>
+        <li data-filter=".producto-venta">Venta</li>
         <li data-filter=".producto-arriendo">Arriendo</li>
         <li data-filter=".producto-acc-rec">Accesorios y Recargas</li>
         <li data-filter=".producto-pedido">Maquinas a pedidos</li>
@@ -144,9 +144,9 @@
                                 <h2 class="title_bg_1">Bomba Manual</h2>
                                 <img src="img_r/maquinas/maquinas-4.jpg" class="img-responsive pequena" alt="">
                                 <ul>
-                                    <li>
+                                    <li style="text-align: left;">
 
-                                        -Bomba Manual <br>
+                                      -Bomba Manual  <br>
                                         -Manilla Transportadora <br>
                                        -Bidón 20 lt lleno de Agua Purificada <br>
                                        -Valor $9.900 <br>
@@ -714,6 +714,9 @@
 						<div class="form-group">
 							<input type="email" name="email" class="form-control mail-field" required="required" placeholder="Tu Email">
 						</div>
+            <div class="form-group">
+							<input type="telefono" name="telefono" class="form-control mail-field" required="required" placeholder="Tu Telefono">
+						</div>
 						<div class="form-group">
 							<textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Mensaje"></textarea>
 						</div>
@@ -788,9 +791,12 @@
             delay: 10,
             time: 1000
         });
-        $('#inicio').trigger('click');
+        setTimeout(dato => {
+          $('#inicio').trigger('click');
+        },500)
 
     });
+
 </script>
 
 <script>

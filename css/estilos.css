@@ -6,7 +6,7 @@ header{
 header nav {
   width: 100%;
   margin: 0px;
-  background: #024959;
+  background: rgba(33, 39, 78, 0.9);
   font-size: 18px;
   z-index: 10;
 }
@@ -84,17 +84,11 @@ padding : 40px 0;
 }
 
 .img_item{
-background-image : url("../img_r/banner.1.jpeg");
-width: 90%;
-height: 500px;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-margin: 15px auto;
-
+ width: 100%;
+ height: auto;
 }
 
+8
 
 @media screen and (max-width: 700px) {
   header nav {
