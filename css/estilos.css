@@ -107,13 +107,13 @@ padding : 40px 0;
   .menu_bar {
     display:block;
     width: 100%;
-    background: #ccc;
+    background: rgba(33, 39, 78, 0.9);
   }
 
   .menu_bar .bt-menu {
     display: block;
     padding: 20px;
-    background: #024959;
+    background: rgba(33, 39, 78, 0.9);
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -155,4 +155,12 @@ padding : 40px 0;
 
 .pequena{
   max-width: 10px;
+}
+@media screen and (max-width: 430px) {
+  .centrame div{
+    background-color: red;
+  }
+}
+.centrame div{
+  background-color: red;
 }
